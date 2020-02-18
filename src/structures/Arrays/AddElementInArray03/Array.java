@@ -32,6 +32,7 @@ public class Array {
         return data == null;
     }
 
+    // Error prone
     //7. 在index索引的位置插入一个新元素e add(int index, int e)
     public void add(int index, int e){
         if (size == data.length){
